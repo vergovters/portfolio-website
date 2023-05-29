@@ -27,16 +27,22 @@ const Contact = () => {
                         <h6 className="font-medium">Ukraine</h6>
                     </div>
                     <div className="mb-12 lg:mb-0 text-center mx-auto">
-                        <AiOutlineMail className='text-4xl mb-2 mx-auto'/>
-                        <h6 className="font-medium">ifialkivskyi@gmail.com</h6>
+                        <a href="mailto:ifialkivskyi@gmail.com">
+                            <AiOutlineMail className='text-4xl mb-2 mx-auto'/>
+                            <h6 className="font-medium">ifialkivskyi@gmail.com</h6>
+                        </a> 
                     </div>
                     <div className="mb-6 md:mb-0 text-center mx-auto">
-                        <AiOutlinePhone className='text-4xl mb-2 mx-auto'/>
-                        <h6 className="font-medium">+380-96-059-9425</h6>
+                        <a href="tel:+380960599425">
+                            <AiOutlinePhone className='text-4xl mb-2 mx-auto'/>
+                            <h6 className="font-medium">+380-96-059-9425</h6>
+                        </a>     
                     </div>
                     <div className="text-center mx-auto">
-                        <FaTelegramPlane className='text-4xl mb-2 mx-auto'/>
-                        <h6 className="font-medium">@sikedone</h6>
+                        <a href="https://telegram.me/@sikedone">
+                            <FaTelegramPlane className='text-4xl mb-2 mx-auto'/>
+                            <h6 className="font-medium">@sikedone</h6>
+                        </a>
                     </div>
                 </div>
                         

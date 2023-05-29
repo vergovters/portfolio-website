@@ -26,7 +26,7 @@ export const Intro = () => {
             })}
           </h4>
           <div className="dark:text-gray-400 mt-4">{t('intro')}<span role="img" aria-label="pin">📌</span></div>
-          <div className='flex flex-row mt-5'><FaGithub className='mr-2 text-xl'/><BsLinkedin className='text-xl'/></div>
+          <div className='flex flex-row mt-5'><a href="https://github.com/IlliaProgrammer"><FaGithub className='mr-2 text-xl'/></a><BsLinkedin className='text-xl'/></div>
         </div>
         <img src="https://i.pinimg.com/564x/1b/47/a4/1b47a40a95f424bf2787f68ba6742857.jpg" alt="" className="self-center flex-shrink-0 w-[300px] h-[300px] border rounded-full md:justify-self-start dark:bg-gray-500 dark:border-gray-700" />
       </div>

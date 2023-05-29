@@ -23,7 +23,7 @@ const NavBar = () => {
           {isHomePage ? (
             <div className='flex flex-row items-center justify-center'>
               <div className="items-center hidden md:flex md:w-auto md:order-1" id="navbar-cta">
-                <ul className="flex flex-col font-medium p-4 mr-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                <ul className="flex flex-col font-medium p-4 mr-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 cursor-pointer">
                   <li>
                     <ScrollLink to="home" spy={true} smooth={true} offset={-180} duration={500} className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500">Home</ScrollLink>
                   </li>
