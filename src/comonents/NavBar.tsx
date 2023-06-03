@@ -4,6 +4,7 @@ import { Link as ScrollLink } from 'react-scroll'
 import { HOME_ROUTE, JOBS_ROUTE } from '../utils/consts';
 import { useLocation, useNavigate } from 'react-router-dom';
 import LanguageToggle from './LanguageToggle';
+import Typewriter from 'typewriter-effect';
 
 const NavBar = () => {
 
@@ -16,7 +17,13 @@ const NavBar = () => {
       <nav className="fixed top-0 left-0 w-full bg-white border-gray-200 dark:bg-gray-900 space z-[10]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center">
-          <span className="self-center text-xl font-bold whitespace-nowrap dark:text-white">Fialkivskyi.dev</span>
+          <span className="self-center text-xl font-bold whitespace-nowrap dark:text-white"><Typewriter
+              options={{
+                strings: ['Fialkivskyi.dev'],
+                autoStart: true,
+                loop: true,
+              }}
+            /></span>
         </a>
         <div>
         

@@ -3,7 +3,8 @@ import HomePage from "./pages/HomePage";
 import JobPage from "./pages/JobPage";
 import JobsPage from "./pages/JobsPage";
 import NotFoundPage from "./pages/NotFoundPage";
-import { JOBS_ROUTE, HOME_ROUTE, JOB_ROUTE} from "./utils/consts";
+import SelectedPage from "./pages/SelectedPage";
+import { JOBS_ROUTE, HOME_ROUTE, JOB_ROUTE, SELECTED_ROUTE} from "./utils/consts";
 
 interface Route {
     path: string;
@@ -22,6 +23,10 @@ export const RoutesArr:Route[] = [
     {
         path: JOB_ROUTE + '/:id',
         element: <JobPage/>
+    },
+    {
+        path: SELECTED_ROUTE,
+        element: <SelectedPage/>
     },
     {
         path: "*",
