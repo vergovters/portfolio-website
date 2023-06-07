@@ -28,7 +28,7 @@ export const JobFull = () => {
 
   return (
     <div className="mx-[30px] my-[100px]">
-      <div className="group bg-gray-900 p-4 transition-all duration-300 hover:rotate-1 lg:p-8">
+      <div className="group bg-gray-900 p-4 transition-all  lg:p-8">
         <div className="mb-3 text-right">
           <button
             onClick={handleSaveClick} 

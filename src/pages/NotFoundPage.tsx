@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import {motion} from 'framer-motion'
 
 const NotFoundPage = () => {
     const navigate = useNavigate()
@@ -11,7 +12,11 @@ const NotFoundPage = () => {
     }, [navigate])
 
     return (
-        <div className="h-screen w-screen flex items-center justify-center">
+        <motion.div className="h-screen w-screen flex items-center justify-center" 
+            initial={{ scaleY: 0 }}
+            animate={{ scaleY: 1 }}
+            exit={{ scaleY: 0 }}
+            transition={{ duration: 0.5 }}>
             <div className="container flex flex-col md:flex-row items-center justify-center px-5 text-gray-700">
                 <div className="max-w-md">
                     <div className="text-5xl font-dark font-bold">404</div>
@@ -30,7 +35,7 @@ const NotFoundPage = () => {
                     />
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 };
 

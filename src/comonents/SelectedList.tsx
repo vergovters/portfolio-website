@@ -30,11 +30,11 @@ const SelectedList = () => {
                 <h3 className="text-xl font-bold">{job.employer_name}</h3>
                 <p className="mt-2 text-lg">{job.job_title}</p>
               </div>
-              <a
-                className="font-medium text-blue-500 transition-all duration-300 group-hover:text-blue-500/80 mt-5 md:mt-0"
-                href={job.job_apply_link}
-                target="_blank"
-              >
+                  <a
+                    className="font-medium text-blue-500 transition-all duration-300 group-hover:text-blue-500/80 mt-5 md:mt-0"
+                    href={job.job_apply_link}
+                    target="_blank"
+                  >
                 {t('apply')}
               </a>
             </li>

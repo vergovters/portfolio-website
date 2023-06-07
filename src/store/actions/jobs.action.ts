@@ -7,12 +7,12 @@ const options = {
   method: 'GET',
   url: 'https://jsearch.p.rapidapi.com/search',
   params: {
-    query: 'JavaScript React Ukraine',
+    query: 'Junior React JavaScript Ukraine',
     page: '2',
     num_pages: '1'
   },
   headers: {
-    'X-RapidAPI-Key': '31067bfc2cmsh291add07402a2e8p10fb78jsn3be4e6566635',
+    'X-RapidAPI-Key': '41aacf8131msh4b72782b2fdf652p1348dbjsn90a3b619451e',
     'X-RapidAPI-Host': 'jsearch.p.rapidapi.com'
   }
 };
