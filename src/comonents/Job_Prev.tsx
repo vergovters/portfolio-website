@@ -16,7 +16,7 @@ interface JobPrevState {
     
 const Job_Prev: React.FC<JobPrevState> = ({job}) => {
     return (
-        <div className="relative flex flex-col justify-center items-center overflow-hidden p-6 sm:py-12">
+        <div className="relative flex flex-col justify-center items-center overflow-hidden p-6 sm:py-12 bh">
         <div className="bg-grey-50 shadow-xl shadow-gray-100 w-full max-w-4xl flex flex-col sm:flex-row gap-2 sm:items-center justify-between px-5 py-4 rounded-md">
           <div>
             <span className="text-blue-800 text-sm">{job.employer_name}</span>
