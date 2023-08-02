@@ -4,8 +4,34 @@ import { useTranslation } from 'react-i18next';
 export const About = () => {
     const { t } = useTranslation();
 
+    const text = "developer".split("").map((char, i) => (
+        <span
+          key={i}
+          style={{
+            transform: `rotate(${i * 5}deg)`,
+            left: "50%",
+            fontSize: "1.2em",
+            transformOrigin: "0 200px",
+          }}
+        >
+            {char}
+        </span>
+      )).join("");
+
+      const styles = {
+        text: {
+
+        },
+        roundBorder: {
+
+        },
+        picture: {
+            
+        }
+      }
+
     return (
-        <div className="py-16 max-w-[760px] mt-[200xp] hover:skew-y-1 duration-700 sm:skew-y-0" id='about'>
+        <div className="py-16 max-w-[760px] mt-[200xp] sm:skew-y-0" id='about'>
             <div className="container m-auto px-6">
 
             <div className="lg:flex justify-between items-center">
@@ -14,11 +40,12 @@ export const About = () => {
                             className="rounded transform scale-80 sm:scale-100"
                             alt=""
                         />
+                      
                     </div>
                 <div className="lg:w-6/12 lg:p-0 p-7">
                     <h6 className='text-blue-700 text-sm font-bold'>ABOUT ME</h6>
-                    <h1 className="text-2xl font-bold leading-tight mb-5 capitalize"> {t("about_intro")} 👋 </h1>
-                    <p className="text-base">  {t("about")} </p>
+                    <h1 className="text-xl font-bold leading-tight mb-3 capitalize"> {t("about_intro")} 👋 </h1>
+                    <p className="text-sm">  {t("about")} </p>
 
                 </div>
                     
