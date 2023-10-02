@@ -6,7 +6,7 @@ export const getRepos = () => {
   return async (dispatch: Dispatch<RepoActions>) => {
     try{
         dispatch({type: RepoActionTypes.FETCH_REPOS})
-        const response = await axios.get(`https://api.github.com/users/IlliaProgrammer/starred`)
+        const response = await axios.get(`https://api.github.com/users/vergovters/starred`)
             setTimeout(() => {
                 dispatch({type: RepoActionTypes.FETCH_REPOS_SUCCESS, payload: response.data})
             }, 500)

@@ -52,7 +52,7 @@ export const Intro = () => {
             })}
           </h4>
           <div className="dark:text-gray-400 mt-4">{t('intro')}<span role="img" aria-label="pin">📌</span></div>
-          <div className='flex flex-row mt-5'><a href="https://github.com/IlliaProgrammer" target="_blank"><FaGithub className='mr-2 text-xl'/></a><a href="https://www.linkedin.com/in/illia-fialkivskiji-668876246/" target="_blank"><BsLinkedin className='text-xl'/></a></div>
+          <div className='flex flex-row mt-5'><a href="https://github.com/vergovters" target="_blank"><FaGithub className='mr-2 text-xl'/></a><a href="https://www.linkedin.com/in/illia-fialkivskiji-668876246/" target="_blank"><BsLinkedin className='text-xl'/></a></div>
         </div>
         <img src="https://i.pinimg.com/564x/1b/47/a4/1b47a40a95f424bf2787f68ba6742857.jpg" alt="" className="self-center flex-shrink-0 w-[250px] h-[250px] border rounded-full md:justify-self-start dark:bg-gray-500 dark:border-gray-700" style={borderAnimation.borderAn}/>
       </div>
@@ -64,6 +64,8 @@ export const Intro = () => {
         <Stack logo="https://e7.pngegg.com/pngimages/452/495/png-clipart-react-javascript-angularjs-ionic-github-text-logo-thumbnail.png"/>
         <Stack logo="https://files.raycast.com/n3pu9p0jifwy2drpkkojlvt4wd85"/>
         <Stack logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png"/>
+        <Stack logo="https://static-00.iconduck.com/assets.00/node-js-icon-227x256-913nazt0.png"/>
+        <Stack logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png"/>
       </div>
     </div>
     </>
