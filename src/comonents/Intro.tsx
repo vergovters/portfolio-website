@@ -36,7 +36,7 @@ export const Intro = () => {
   return (
     <>
        <style dangerouslySetInnerHTML={{ __html: keyframes }} />
-    <div className="p-6 sm:p-12 dark:bg-gray-900 dark:text-gray-100 max-w-[860px] mt-4 sm:mt-0" id="home">
+    <div className="p-6  sm:p-12 dark:bg-gray-900 dark:text-gray-100 max-w-[860px] mt-4 sm:mt-0" id="home">
       <div className="flex flex-col space-y-4 md:space-y-0 md:space-x-6 md:flex-row">
         <div className="flex flex-col w-full md:w-1/2">
           <h4 className="text-5xl font-bold text-center md:text-left mt-5 sm:hidden">
